@@ -17,18 +17,20 @@
         <div class="board"></div>
         <div class="buttons">
           <button onclick="changeColor('black')">Black</button>
-          <button onclick="changeColor('white')">Eraser</button>
           <button onclick="changeColor('rainbow')">Rainbow</button>
+          <button onclick="changeColor('white')">Eraser</button>
           <button onclick="clearBoard()">Clear</button>
         </div>
+        <div id="sizeValue" class="size-value">16 x 16</div>
         <div class="textinput">
           <input
-            type="text"
+            type="range"
+            min="10"
+            max="100"
             placeholder="Size of Board"
             value="16"
             onchange="changeSize(this.value)"
           />
-          <button>Set Size</button>
         </div>
       </div>
     </div>

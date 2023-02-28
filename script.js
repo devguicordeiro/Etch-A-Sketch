@@ -47,6 +47,8 @@ function clearBoard() {
   squares.forEach((div) => (div.style.backgroundColor = "white"));
 }
 
-document.querySelector("body").addEventListener("click", () => {
-  click = !click;
+document.querySelector("body").addEventListener("click", (e) => {
+  if (e.target.tagName != "BUTTON") {
+    click = !click;
+  }
 });
