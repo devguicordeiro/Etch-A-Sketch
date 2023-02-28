@@ -1,3 +1,4 @@
 # Etch-A-Sketch
 
-tomorrow i'll be starting a new project hopefully a fast one
+all files we'll be using uploaded
+now i'll be start working on html and js
